@@ -27,7 +27,6 @@ public class Simulador {
         // 3. Calcula a SOMA
         long somaSimulada = 0;
 
-        // for (int numero : numerosSorteados) {
         for (int i = 0; i < numerosSorteados.size(); i++) {
             int valor = problema.getValorSimulado(numerosSorteados.get(i));
             
